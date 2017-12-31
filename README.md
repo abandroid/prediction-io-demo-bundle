@@ -1,1 +1,1 @@
-# prediction-io-demo-bundle
+# Prediction IO Demo Bundle
