@@ -7,13 +7,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\PredictionIO\Bundle\PredictionIODemoBundle\Controller;
+namespace Endroid\PredictionIo\Bundle\PredictionIoDemoBundle\Controller;
 
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Bundle\FrameworkBundle\Controller\Controller;
-use Endroid\PredictionIO\EngineClient;
-use Endroid\PredictionIO\EventClient;
+use Endroid\PredictionIo\EngineClient;
+use Endroid\PredictionIo\EventClient;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Response;
 

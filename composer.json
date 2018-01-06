@@ -21,12 +21,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Endroid\\PredictionIODemoBundle\\": "src/"
+            "Endroid\\PredictionIoDemoBundle\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Endroid\\PredictionIODemoBundle\\Tests\\": "tests/"
+            "Endroid\\PredictionIoDemoBundle\\Tests\\": "tests/"
         }
     },
     "extra": {

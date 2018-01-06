@@ -7,13 +7,13 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\PredictionIO\Bundle\PredictionIODemoBundle\DependencyInjection;
+namespace Endroid\PredictionIo\Bundle\PredictionIoDemoBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\Extension\PrependExtensionInterface;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
-class EndroidPredictionIODemoExtension extends Extension implements PrependExtensionInterface
+class EndroidPredictionIoDemoExtension extends Extension implements PrependExtensionInterface
 {
     /**
      * {@inheritdoc}
@@ -28,7 +28,7 @@ class EndroidPredictionIODemoExtension extends Extension implements PrependExten
      */
     public function prepend(ContainerBuilder $container)
     {
-        // Add the PredictionIO package to the assets configuration so the correct manifest is used
+        // Add the PredictionIo package to the assets configuration so the correct manifest is used
         $container->prependExtensionConfig('framework', [
             'assets' => [
                 'packages' => [
