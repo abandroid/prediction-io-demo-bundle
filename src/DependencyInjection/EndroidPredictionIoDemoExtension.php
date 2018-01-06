@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\PredictionIo\Bundle\PredictionIoDemoBundle\DependencyInjection;
+namespace Endroid\PredictionIoDemoBundle\DependencyInjection;
 
 use Symfony\Component\DependencyInjection\Extension\PrependExtensionInterface;
 use Symfony\Component\HttpKernel\DependencyInjection\Extension;
