@@ -14,10 +14,10 @@
     {{ parent() }}
     <script>
         let appConfig = {
-            statePath: "{{ path('endroid_predictionio_recommendation_state') }}",
-            initializePath: "{{ path('endroid_predictionio_recommendation_initialize') }}",
-            viewPath: "{{ path('endroid_predictionio_recommendation_view', { userId: 'UID', itemId: 'IID' }) }}",
-            purchasePath: "{{ path('endroid_predictionio_recommendation_purchase', { userId: 'UID', itemId: 'IID' }) }}",
+            statePath: "{{ path('predictionio_recommendation_state') }}",
+            initializePath: "{{ path('predictionio_recommendation_initialize') }}",
+            viewPath: "{{ path('predictionio_recommendation_view', { userId: 'UID', itemId: 'IID' }) }}",
+            purchasePath: "{{ path('predictionio_recommendation_purchase', { userId: 'UID', itemId: 'IID' }) }}",
         }
     </script>
     <script src="{{ preload(asset('/build/recommendation.js', 'endroid_prediction_io')) }}"></script>

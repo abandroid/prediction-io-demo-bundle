@@ -23,7 +23,7 @@ use Symfony\Component\HttpFoundation\Response;
 class RecommendationController extends Controller
 {
     /**
-     * @Route("/", name="endroid_predictionio_recommendation_index")
+     * @Route("/", name="predictionio_recommendation_index")
      * @Template()
      *
      * @return array
@@ -39,7 +39,7 @@ class RecommendationController extends Controller
     }
 
     /**
-     * @Route("/state", name="endroid_predictionio_recommendation_state")
+     * @Route("/state", name="predictionio_recommendation_state")
      *
      * @return Response
      */
@@ -66,7 +66,7 @@ class RecommendationController extends Controller
     }
 
     /**
-     * @Route("/initialize", name="endroid_predictionio_recommendation_initialize")
+     * @Route("/initialize", name="predictionio_recommendation_initialize")
      *
      * @return Response
      */
@@ -81,7 +81,7 @@ class RecommendationController extends Controller
     }
 
     /**
-     * @Route("/view/{userId}/{itemId}", name="endroid_predictionio_recommendation_view")
+     * @Route("/view/{userId}/{itemId}", name="predictionio_recommendation_view")
      *
      * @param string $userId
      * @param string $itemId
@@ -96,7 +96,7 @@ class RecommendationController extends Controller
     }
 
     /**
-     * @Route("/purchase/{userId}/{itemId}", name="endroid_predictionio_recommendation_purchase")
+     * @Route("/purchase/{userId}/{itemId}", name="predictionio_recommendation_purchase")
      *
      * @param string $userId
      * @param string $itemId
